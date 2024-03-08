@@ -6,7 +6,7 @@ module.exports = {
   mode: "development", // Correctly set mode to 'development' here
   entry: "./src/index.js",
   output: {
-    publicPath: "http://localhost:3001/",
+    publicPath: "https://federetedmodule.netlify.app/",
   },
   module: {
     rules: [
